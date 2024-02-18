@@ -1,0 +1,32 @@
+modLoader="javafml"
+# Forge for 1.20 is version 48
+loaderVersion="[48,)"
+license="MIT"
+showAsResourcePack=false
+issueTrackerURL=""
+
+[[mods]]
+modId="fuck"
+version="1.0.0.0"
+displayName="Fuck"
+displayURL="github.com/urmoter"
+credits="I shit myself"
+authors="Urmoter"
+description='''
+    This is a shitshow.
+    '''
+displayTest="MATCH_VERSION"
+
+[[dependencies.fuck]]
+modId="forge"
+mandatory=true
+versionRange="[48,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.fuck]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20,)"
+ordering="NONE"
+side="BOTH"
