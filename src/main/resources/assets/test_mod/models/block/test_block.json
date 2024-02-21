@@ -1,0 +1,13 @@
+{
+  "render_type": "minecraft:solid",
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "test_mod:block/test_block_face0",
+    "up": "test_mod:block/test_block_face1",
+    "north": "test_mod:block/test_block_face2",
+    "east": "test_mod:block/test_block_face5",
+    "south": "test_mod:block/test_block_face3",
+    "west": "test_mod:block/test_block_face4",
+    "particle": "#down"
+  }
+}

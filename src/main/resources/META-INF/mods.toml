@@ -3,12 +3,12 @@ modLoader="javafml"
 loaderVersion="[48,)"
 license="MIT"
 showAsResourcePack=false
-issueTrackerURL=""
+issueTrackerURL="https://github.com/urmoter/MC_MOD/issues"
 
 [[mods]]
-modId="fuck"
-version="1.0.0.0"
-displayName="Fuck"
+modId="test_mod"
+version="0.0.2.0"
+displayName="Test Mod"
 displayURL="github.com/urmoter"
 credits="I shit myself"
 authors="Urmoter"
@@ -17,14 +17,14 @@ description='''
     '''
 displayTest="MATCH_VERSION"
 
-[[dependencies.fuck]]
+[[dependencies.test_mod]]
 modId="forge"
 mandatory=true
 versionRange="[48,)"
 ordering="NONE"
 side="BOTH"
 
-[[dependencies.fuck]]
+[[dependencies.test_mod]]
 modId="minecraft"
 mandatory=true
 versionRange="[1.20,)"
